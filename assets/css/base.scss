@@ -1,0 +1,30 @@
+.box-header {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0px auto;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-header__menu {
+
+    ul {
+        display: flex;
+
+        li{
+            padding: 10px 20px;
+            list-style-type: none;
+
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.box-main {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0px auto;
+}
