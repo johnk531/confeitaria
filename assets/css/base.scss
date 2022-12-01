@@ -1,5 +1,14 @@
 *{ font-family: roboto, sans-serif; }
 
+header {
+    background-color: #e6bdcd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
 body { margin: 0px; }
 
 .box-header {
@@ -21,14 +30,29 @@ body { margin: 0px; }
             list-style-type: none;
 
             a{
+                color: #8c5c50;
                 text-decoration: none;
             }
         }
     }
 }
 
-.box-main {
+.box-main{
+    padding-top: 121px;
+}
+
+.container {
     width: 100%;
     max-width: 1320px;
     margin: 0px auto;
+}
+
+.box-doceria {
+    width: 100%;
+    position: relative;
+
+    img {
+        width: 100%;
+        max-width: 100%;
+    }
 }
