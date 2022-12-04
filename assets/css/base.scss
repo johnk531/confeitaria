@@ -21,6 +21,10 @@ body { margin: 0px; }
     justify-content: space-between;
 }
 
+.box-header__menu-hamburguer {
+    display: none;
+}
+
 .box-header__menu {
     min-width: 320px;
 
@@ -32,11 +36,16 @@ body { margin: 0px; }
         justify-content: space-between;
 
         li{
+            font-size: 1.1rem;
             list-style-type: none;
 
             a{
                 color: #8c5c50;
                 text-decoration: none;
+            
+                &:hover{
+                    color: #fff;
+                }
             }
         }
     }
@@ -59,5 +68,11 @@ body { margin: 0px; }
     img {
         width: 100%;
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .box-header__menu-hamburguer {
+        display: block;
     }
 }
