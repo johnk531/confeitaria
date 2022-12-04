@@ -15,18 +15,23 @@ body { margin: 0px; }
     width: 100%;
     max-width: 1320px;
     margin: 0px auto;
-    display: flex;    
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
 .box-header__menu {
+    min-width: 320px;
 
     ul {
+        margin: 0;
+        padding: 0;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
         li{
-            padding: 10px 20px;
             list-style-type: none;
 
             a{
